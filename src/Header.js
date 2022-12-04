@@ -8,11 +8,35 @@ import img6 from './assets/img6.jpg';
 import img7 from './assets/img7.jpg';
 import Logo from './assets/ABI_logo.png'
 import Carousel from 'nuka-carousel'
+import Typical from 'react-typical';
+import Typewriter from 'typewriter-effect';
+
 const Header = () => {
+    // <Typical
+    //     steps={[
+    //         'Anas Siddiqui',
+    //         1000,
+    //         'Mohd. Anas Siddiqui',
+    //         1000,
+    //         'Anas Siddiqui',
+    //         1000
+    //     ]}
+    //     loop={Infinity}
+    // />
     return (
         <div>
             <div className="col-md-12" id="header_brand">
-                <div><p id="my_name">Anas Siddiqui</p></div>
+                <div><p id="my_name">
+
+                    <Typewriter
+                        options={{
+                            autoStart: true,
+                            loop: true,
+                            delay: 40,
+                            strings: ["Anas Siddiqui"]
+                        }}
+                    />
+                </p></div>
                 <img src={Logo} style={{ height: "60px" }} />
             </div>
 

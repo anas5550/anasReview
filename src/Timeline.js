@@ -4,18 +4,18 @@ import archive2 from './assets/archive2.png';
 const Timeline = () => {
     return (
         <div>
-            <div class="timeline">
-                <div class="outer">
-                    <div class="timeline_card">
-                        <div class="info">
-                            <h3 class="title">From <span>Supriya</span></h3>
-                            <img src={archive1} alt="" />
+            <div className="timeline">
+                <div className="outer">
+                    <div className="timeline_card" >
+                        <div className="info">
+                            <h3 className="title" data-aos="fade-left">From <span>Supriya</span></h3>
+                            <img src={archive1} alt="" data-aos="fade-left" />
                         </div>
                     </div>
-                    <div class="timeline_card">
-                        <div class="info">
-                            <h3 class="title">From <span>Anuja</span></h3>
-                            <img src={archive2} alt="" />
+                    <div className="timeline_card">
+                        <div className="info">
+                            <h3 className="title" data-aos="fade-right">From <span>Anuja</span></h3>
+                            <img src={archive2} alt="" data-aos="fade-right" />
                         </div>
                     </div>
                     {/* <div class="timeline_card">

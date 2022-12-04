@@ -4,15 +4,15 @@ const Projects = () => {
     return (
         <div id="projects_box">
             <div className="container">
-                <div className="row">
-                    <h1 className='text-center' id="my_contribution">My Contribution</h1>
+                <div className="row" data-aos="fade-up">
+                    <h1 className='text-center my_heading'>My <span>Contribution</span></h1>
                 </div>
             </div>
             <div className="container mb-3">
 
                 <div className="row">
                     <div className="col-md-4">
-                        <div className="card">
+                        <div className="card" data-aos="fade-up" >
                             <div className="face face1">
                                 <div className="content">
                                     <h4>Trainings</h4>
@@ -30,7 +30,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="card">
+                        <div className="card" data-aos="fade-up">
                             <div className="face face1">
                                 <div className="content">
                                     <h4>Code and App review</h4>
@@ -50,7 +50,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="card">
+                        <div className="card" data-aos="fade-up">
                             <div className="face face1">
                                 <div className="content">
                                     <h4>UI Change Request</h4>
@@ -75,7 +75,7 @@ const Projects = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <div className="card">
+                        <div className="card" data-aos="fade-up">
                             <div className="face face1">
                                 <div className="content">
                                     <h4>Change request/issue</h4>
@@ -93,7 +93,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="card">
+                        <div className="card" data-aos="fade-up">
                             <div className="face face1">
                                 <div className="content">
                                     <h4>Change request/issue</h4>
@@ -111,7 +111,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="card">
+                        <div className="card" data-aos="fade-up">
                             <div className="face face1">
                                 <div className="content">
                                     <h4>UI Change Request</h4>

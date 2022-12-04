@@ -6,23 +6,32 @@ import { IoLogoNodejs } from 'react-icons/io';
 import { GrReactjs } from 'react-icons/gr';
 import { GiDatabase, GiTeamIdea } from 'react-icons/gi';
 import { BiTime } from 'react-icons/bi';
-
+import Typewriter from 'typewriter-effect';
 
 
 const MyLearnings = () => {
     return (
 
         <div className='mb-5'>
-            <p className="my_heading">My <span>Learnings</span> at AB InBev</p>
+            <p className="my_heading" data-aos="fade-up" >My <span className='d-inline-block'>
+                <Typewriter
+                    options={{
+                        autoStart: true,
+                        loop: true,
+                        delay: 40,
+                        strings: ["Learnings"]
+                    }}
+                />
+            </span> at AB InBev</p>
             <div className="container">
                 <div className="row">
                     <div className="learnings_content">
                         <div>
-                            <h3><FaRocket /> Technologies</h3>
+                            <h3 data-aos="fade-left"><FaRocket /> Technologies</h3>
                         </div>
 
                         <div>
-                            <div className='d-flex inner_learnings'>
+                            <div className='d-flex inner_learnings' data-aos="fade-right">
                                 <ul>
                                     <li><GrReactjs /> React.js</li>
                                     <li><IoLogoNodejs /> Node.js</li>
@@ -42,10 +51,10 @@ const MyLearnings = () => {
                 <div className="row" >
                     <div className="learnings_content">
                         <div>
-                            <h3> <FaToolbox /> Tools</h3>
+                            <h3 data-aos="fade-left"> <FaToolbox /> Tools</h3>
                         </div>
                         <div>
-                            <div className='d-flex inner_learnings'>
+                            <div className='d-flex inner_learnings' data-aos="fade-right">
                                 <ul>
                                     <li><SiPostman /> Postman</li>
                                     <li><SiVisualstudio /> Visual Studio Code</li>
@@ -63,11 +72,11 @@ const MyLearnings = () => {
                 <div className="row">
                     <div className="learnings_content">
                         <div>
-                            <h3><FaAward /> Interpersonal Skills</h3>
+                            <h3 data-aos="fade-left"><FaAward /> Interpersonal Skills</h3>
                         </div>
 
                         <div>
-                            <div className='d-flex inner_learnings' >
+                            <div className='d-flex inner_learnings' data-aos="fade-right">
                                 <ul>
                                     <li><AiFillQuestionCircle /> Problem Solving</li>
                                     <li><GiTeamIdea /> Team Player & Contributor</li>
