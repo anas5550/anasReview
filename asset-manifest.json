@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/anasReview/static/css/main.9ecb3da9.css",
+    "main.js": "/anasReview/static/js/main.559b1ca0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/anasReview/static/js/787.28cb0dcd.chunk.js",
+    "static/media/img3.jpg": "/anasReview/static/media/img3.70cba320743b8a805b39.jpg",
+    "static/media/img2.jpg": "/anasReview/static/media/img2.1a3e40889ec65581189c.jpg",
+    "static/media/img5.jpg": "/anasReview/static/media/img5.633e1358a81b74e7e6dd.jpg",
+    "static/media/img4.jpg": "/anasReview/static/media/img4.b7dcaade1d49485cc023.jpg",
+    "static/media/img6.jpg": "/anasReview/static/media/img6.234976df148386f20b2c.jpg",
+    "static/media/img1.jpg": "/anasReview/static/media/img1.a9154450d7d482fd3e78.jpg",
+    "static/media/archive2.png": "/anasReview/static/media/archive2.25decbaead9ea04150bb.png",
+    "static/media/img7.jpg": "/anasReview/static/media/img7.8fd4fe27a91a5be98426.jpg",
+    "static/media/archive1.png": "/anasReview/static/media/archive1.ca7d4b4e3e6bc143db06.png",
+    "static/media/ABI_logo.png": "/anasReview/static/media/ABI_logo.5cec3fa02207b8293b3e.png",
+    "static/media/problem_solving.png": "/anasReview/static/media/problem_solving.12d28c603e3fdc63e89c.png",
+    "static/media/upskilling.png": "/anasReview/static/media/upskilling.0acde39a809ec29d75a8.png",
+    "static/media/beer_img.png": "/anasReview/static/media/beer_img.a29d4bca89e841990f0b.png",
+    "static/media/team_player.png": "/anasReview/static/media/team_player.e99db5715dd4288d3b71.png",
+    "static/media/brand7.png": "/anasReview/static/media/brand7.a3b06961802f255fce21.png",
+    "static/media/idea.png": "/anasReview/static/media/idea.5bea15ee05c02e12b4fd.png",
+    "static/media/brand8.png": "/anasReview/static/media/brand8.1176539bdd73b7b994c4.png",
+    "static/media/brand2.png": "/anasReview/static/media/brand2.6bc5425740bc1dcc5ea2.png",
+    "static/media/brand9.png": "/anasReview/static/media/brand9.5acca822141ef09fe154.png",
+    "static/media/brand3.png": "/anasReview/static/media/brand3.3fc124f6276f96b23657.png",
+    "static/media/brand1.png": "/anasReview/static/media/brand1.34755c6ef4397cf91141.png",
+    "static/media/brand4.png": "/anasReview/static/media/brand4.e321fcb6ff3a96a3810b.png",
+    "static/media/brand5.png": "/anasReview/static/media/brand5.e321fcb6ff3a96a3810b.png",
+    "static/media/brand6.png": "/anasReview/static/media/brand6.cb007bc296240c29b885.png",
+    "index.html": "/anasReview/index.html",
+    "main.9ecb3da9.css.map": "/anasReview/static/css/main.9ecb3da9.css.map",
+    "main.559b1ca0.js.map": "/anasReview/static/js/main.559b1ca0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/anasReview/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ecb3da9.css",
+    "static/js/main.559b1ca0.js"
+  ]
+}
