@@ -13,6 +13,10 @@
   --weight3: 600;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 #header_brand {
   background: #000;
   display: flex;
@@ -111,7 +115,7 @@
   border-radius: 15px;
 }
 
-.card:nth-child(2) .face.face2 {
+/* .card:nth-child(2) .face.face2 {
   background: linear-gradient(45deg, #ccff00, #09afff);
   border-radius: 15px;
 }
@@ -119,7 +123,7 @@
 .card:nth-child(3) .face.face2 {
   background: linear-gradient(45deg, #e91e63, #ffeb3b);
   border-radius: 15px;
-}
+} */
 
 .card:hover .face.face2 {
   height: 60px;
@@ -149,7 +153,7 @@
   Will override color (regardless of order)
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white; */
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .card:hover .face.face2 h2 {
@@ -295,7 +299,7 @@
 }
 
 .cyan, .red, .blue, .orange {
-  border-top: 3px solid var(--cyan);
+  border-top: 3px solid black;
 }
 
 
@@ -339,6 +343,19 @@
 #footer {
   background: #000;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_icon {
+  font-size: 2rem;
+  color: #f1c40f;
+  margin: 10px;
+}
+
+.footer_icon:hover {
+  color: #9d7f09;
 }
 
 #footer p {
@@ -513,4 +530,15 @@
   background: #ba980d;
 }
 
-/* new timeline */
+/* my info */
+
+#my_info_box {
+  height: 100vh;
+  background: rgb(241, 196, 15);
+  background: linear-gradient(90deg, rgba(246, 200, 15, 0.6) 0%, rgba(0, 0, 0, 0.6) 0%), url('./assets/img5.jpg');
+  /* background-position: 0 0; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}

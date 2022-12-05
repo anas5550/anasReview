@@ -40,7 +40,7 @@ const Header = () => {
                 <img src={Logo} style={{ height: "60px" }} />
             </div>
 
-            <Carousel autoplay={true} wrapAround={true} renderCenterLeftControls={({ previousSlide }) => (
+            <Carousel pauseOnHover={false} autoplay={true} wrapAround={true} renderCenterLeftControls={({ previousSlide }) => (
                 null
             )}
                 renderCenterRightControls={({ nextSlide }) => (

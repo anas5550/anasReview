@@ -41,7 +41,7 @@ const MyLearnings = () => {
                                     <li><AiFillHtml5 /> HTML</li>
                                     <li><SiCsswizardry /> CSS</li>
                                     <li><SiJavascript /> JavaScript</li>
-                                    <li><SiBootstrap /> Material UI,Bootstrap  </li>
+                                    <li><SiBootstrap /> Material UI, Bootstrap  </li>
                                 </ul>
                             </div>
                         </div>
