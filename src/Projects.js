@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div id="projects_box">
+        <div id="contribution" >
             <div className="container">
                 <div className="row" data-aos="fade-up">
                     <h1 className='text-center my_heading'>My <span>Contribution</span></h1>

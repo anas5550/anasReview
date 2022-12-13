@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import './mediaQuery.css';
 import Header from './Header';
 import Brands from './Brands';
 import Projects from './Projects';
@@ -14,6 +15,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Thankyou from './Thankyou';
 import Timeline2 from './Timeline2';
+import Introduction from './Introduction';
 
 function App() {
 
@@ -25,7 +27,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
+      <Introduction />
       <Projects />
       <Brands />
       <MyLearnings />

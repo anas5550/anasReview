@@ -4,7 +4,7 @@ import archive2 from './assets/archive2.png';
 const Timeline = () => {
     return (
         <div>
-            <div className="timeline">
+            <div className="timeline" id="archive">
                 <div className="outer">
                     <div className="timeline_card" >
                         <div className="info">

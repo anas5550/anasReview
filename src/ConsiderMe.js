@@ -7,7 +7,7 @@ import team_player from './assets/team_player.png';
 
 const ConsiderMe = () => {
     return (
-        <div id="considerMe_box">
+        <div className="considerMe_box" id="considerMe">
             <p className='my_heading' data-aos="fade-up">Why <span style={{ fontSize: "3rem", color: "black" }}>?</span> You Should <span style={{ color: "white" }}>Consider me</span></p>
             {/* <div className="row">
                 <div className="col-md-3">

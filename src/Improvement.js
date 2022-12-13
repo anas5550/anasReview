@@ -8,7 +8,7 @@ import Typewriter from 'typewriter-effect';
 const Improvement = () => {
     return (
         <div>
-            <div className="container mb-4" id="improvement_box">
+            <div className="container mb-4" id="imporvement">
                 <p className='my_heading' data-aos="fade-up">Where I Need To <span className='d-inline-block'>
                     <Typewriter
                         options={{

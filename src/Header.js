@@ -24,7 +24,7 @@ const Header = () => {
     //     loop={Infinity}
     // />
     return (
-        <div>
+        <div id="header_carousel">
             <div className="col-md-12" id="header_brand">
                 <div><p id="my_name">
 
@@ -37,7 +37,7 @@ const Header = () => {
                         }}
                     />
                 </p></div>
-                <img src={Logo} style={{ height: "60px" }} />
+                <img src={Logo} style={{ height: "60px" }} id="ABI_logo" />
             </div>
 
             <Carousel pauseOnHover={false} autoplay={true} wrapAround={true} renderCenterLeftControls={({ previousSlide }) => (
