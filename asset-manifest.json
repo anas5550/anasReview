@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/anasReview/static/css/main.608a7c31.css",
-    "main.js": "/anasReview/static/js/main.546e0590.js",
+    "main.css": "/anasReview/static/css/main.c85db790.css",
+    "main.js": "/anasReview/static/js/main.42d98427.js",
     "static/js/787.28cb0dcd.chunk.js": "/anasReview/static/js/787.28cb0dcd.chunk.js",
     "static/media/img3.jpg": "/anasReview/static/media/img3.70cba320743b8a805b39.jpg",
     "static/media/img2.jpg": "/anasReview/static/media/img2.1a3e40889ec65581189c.jpg",
     "static/media/img5.jpg": "/anasReview/static/media/img5.633e1358a81b74e7e6dd.jpg",
+    "static/media/intro_bg.png": "/anasReview/static/media/intro_bg.3b62ce3f06f2087d5d8b.png",
     "static/media/img4.jpg": "/anasReview/static/media/img4.b7dcaade1d49485cc023.jpg",
     "static/media/img6.jpg": "/anasReview/static/media/img6.234976df148386f20b2c.jpg",
     "static/media/thankyou2.gif": "/anasReview/static/media/thankyou2.1ac9b4892ae0920a42bd.gif",
@@ -28,13 +29,14 @@
     "static/media/brand4.png": "/anasReview/static/media/brand4.e321fcb6ff3a96a3810b.png",
     "static/media/brand5.png": "/anasReview/static/media/brand5.e321fcb6ff3a96a3810b.png",
     "static/media/brand6.png": "/anasReview/static/media/brand6.cb007bc296240c29b885.png",
+    "static/media/abi_updated_logo.png": "/anasReview/static/media/abi_updated_logo.37b45ad926ee280a586d.png",
     "index.html": "/anasReview/index.html",
-    "main.608a7c31.css.map": "/anasReview/static/css/main.608a7c31.css.map",
-    "main.546e0590.js.map": "/anasReview/static/js/main.546e0590.js.map",
+    "main.c85db790.css.map": "/anasReview/static/css/main.c85db790.css.map",
+    "main.42d98427.js.map": "/anasReview/static/js/main.42d98427.js.map",
     "787.28cb0dcd.chunk.js.map": "/anasReview/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.608a7c31.css",
-    "static/js/main.546e0590.js"
+    "static/css/main.c85db790.css",
+    "static/js/main.42d98427.js"
   ]
 }
