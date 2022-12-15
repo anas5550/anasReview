@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/anasReview/static/css/main.8b1b41c1.css",
+    "main.css": "/anasReview/static/css/main.72510d8e.css",
     "main.js": "/anasReview/static/js/main.a1c22091.js",
     "static/js/787.28cb0dcd.chunk.js": "/anasReview/static/js/787.28cb0dcd.chunk.js",
     "static/media/img3.jpg": "/anasReview/static/media/img3.70cba320743b8a805b39.jpg",
@@ -33,12 +33,12 @@
     "static/media/brand6.png": "/anasReview/static/media/brand6.cb007bc296240c29b885.png",
     "static/media/abi_updated_logo.png": "/anasReview/static/media/abi_updated_logo.37b45ad926ee280a586d.png",
     "index.html": "/anasReview/index.html",
-    "main.8b1b41c1.css.map": "/anasReview/static/css/main.8b1b41c1.css.map",
+    "main.72510d8e.css.map": "/anasReview/static/css/main.72510d8e.css.map",
     "main.a1c22091.js.map": "/anasReview/static/js/main.a1c22091.js.map",
     "787.28cb0dcd.chunk.js.map": "/anasReview/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b1b41c1.css",
+    "static/css/main.72510d8e.css",
     "static/js/main.a1c22091.js"
   ]
 }
