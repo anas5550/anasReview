@@ -16,6 +16,7 @@ import 'aos/dist/aos.css';
 import Thankyou from './Thankyou';
 import Timeline2 from './Timeline2';
 import Introduction from './Introduction';
+import LotMore from './LotMore';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       {/* <Header /> */}
       <Introduction />
       <Projects />
+      <LotMore />
       <Brands />
       <MyLearnings />
       <Improvement />

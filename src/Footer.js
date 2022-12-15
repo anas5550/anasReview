@@ -15,7 +15,7 @@ const Footer = () => {
                     <BsGithub className='footer_icon' />
                 </a>
 
-                <a href="tel:8665562570">
+                <a href="tel:8127775550">
                     <FaMobileAlt className='footer_icon' />
                 </a>
 

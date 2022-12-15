@@ -314,7 +314,7 @@ body {
 }
 
 .box:hover {
-  background: #000;
+  /* background: #000; */
   color: white !important;
 }
 
@@ -345,6 +345,28 @@ body {
 .cyan, .red, .blue, .orange {
   border-top: 3px solid black;
 }
+
+
+
+/* hover effect on box */
+.box::before {
+  content: '';
+  background-color: black;
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 0px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+.box:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+
 
 
 @media (min-width: 950px) {
@@ -385,7 +407,10 @@ body {
 
 /* footer */
 #footer {
-  background: #000;
+  background: black;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -632,16 +657,46 @@ body {
   text-decoration: none;
 }
 
-#navbar .nav_link:hover {
-  color: white;
-  cursor: pointer;
+
+
+
+.nav_link {
+  background-image: linear-gradient(to right, #fff, #fff 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
 }
 
-#navbar Link {
-  list-style: none;
-  border: none;
-
+.nav_link:before {
+  content: '';
+  background: #f1c40f;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
 }
+
+.nav_link:hover {
+  background-position: 0;
+}
+
+.nav_link:hover::before {
+  width: 100%;
+}
+
+/* Presentational Styles */
+
+
+
 
 #intro_card_box {
   display: flex;
@@ -686,6 +741,96 @@ body {
   text-transform: uppercase;
   color: #f1c40f;
   font-size: 2rem;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   font-weight: 1000;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(-10px);
+  }
+
+  /* 25% {
+    transform: translateY(-5px);
+  } */
+
+  /* 
+  50% {
+    transform: translateY(5px);
+  } */
+
+  75% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* arrow icon */
+#down_arrow {
+  font-size: 1.5rem;
+  text-align: center;
+  animation: animate 2s ease-in-out infinite;
+
+}
+
+#down_arrow #arrow_icon {
+
+  color: #f1c40f !important;
+}
+
+/* lot more */
+
+#lot_more_box {
+  /* border: 2px solid black; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lot_more_left_side p:nth-child(1) {
+  font-size: 7.5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+#lot_more_left_side p:nth-child(2) {
+  font-size: 6.5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+#lot_more_left_side p:nth-child(2) span {
+  color: #f1c40f;
+}
+
+#lot_more_rightSide {
+  height: 100vh;
+}
+
+#lot_more_rightSide_img {
+  background: url('./assets/merry_christmas.gif');
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+
+}
+
+/* .col-md-6 {
+  border: 2px solid blue;
+} */
+
+/* resume download */
+#resume_download {
+  position: fixed;
+  bottom: 0px;
+  right: 5px;
+
+}
+
+#resume_download_icon {
+  font-size: 2rem;
+  color: #f1c40f;
 }

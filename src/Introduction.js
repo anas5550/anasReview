@@ -3,6 +3,10 @@ import Typewriter from 'typewriter-effect';
 import Logo from './assets/abi_updated_logo.png';
 import { BrowserRouter } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
+import { BsChevronDoubleDown } from 'react-icons/bs';
+import { BiDownload } from 'react-icons/bi';
+import Resume from './assets/Resume.pdf';
+
 //pushing
 const Introduction = () => {
     return (
@@ -16,6 +20,9 @@ const Introduction = () => {
                         <Link className='nav_link' to="#imporvement">Imrovement</Link>
                         <Link className='nav_link' to="#considerMe">Consider me</Link>
                         <Link className='nav_link' to="#archive">Archive</Link>
+                        <a className='nav_link' href={Resume} download="Anas Resume">
+                            Download Resume <BiDownload style={{ marginTop: "-5px" }} />
+                        </a>
                     </div>
                 </div>
                 <div className="row mt-5">
@@ -49,6 +56,9 @@ const Introduction = () => {
                             }}
                         />
                     </p>
+                </div>
+                <div id="down_arrow">
+                    <Link className='nav_link' to="#contribution"><BsChevronDoubleDown id="arrow_icon" /></Link>
                 </div>
             </div>
         </BrowserRouter>

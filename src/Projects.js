@@ -41,6 +41,7 @@ const Projects = () => {
                                     <ul>
                                         <li>CQ portal for dropdown issue</li>
                                         <li>Resolved MDM mail issue</li>
+                                        <li>Database Entry from Excel file</li>
                                     </ul>
                                 </div>
                             </div>
@@ -60,7 +61,7 @@ const Projects = () => {
                                     </ul>
                                     <h4>Code Review</h4>
                                     <ul>
-                                        <li>MJE Portal</li>
+                                        <li>MJE JEAN Portal</li>
                                     </ul>
                                 </div>
                             </div>
@@ -96,6 +97,11 @@ const Projects = () => {
                         <div className="card" data-aos="fade-up">
                             <div className="face face1">
                                 <div className="content">
+                                    <h4>UI Change Request</h4>
+                                    <ul>
+                                        <li>CQ Portal</li>
+                                        <li>Ret Pack Portal</li>
+                                    </ul>
                                     <h4>Change request/issue</h4>
                                     <ul>
                                         <li>HOPS Frontend Changes</li>
@@ -114,14 +120,18 @@ const Projects = () => {
                         <div className="card" data-aos="fade-up">
                             <div className="face face1">
                                 <div className="content">
-                                    <h4>UI Change Request</h4>
+                                    <h4>Request Request</h4>
                                     <ul>
-                                        <li>CQ Portal</li>
-                                        <li>Ret Pack Portal</li>
+                                        <li>CQ Portal-Incident</li>
+                                        <li>CQ Portal Shipping Number</li>
                                     </ul>
+
                                     <h4>Code Review</h4>
                                     <ul>
-                                        <li>MJE Portal</li>
+                                        <li>Cognos MJE Jean</li>
+                                        <li>SAT Security</li>
+                                        <li>UK Front Office</li>
+                                        <li>Sundry Portal</li>
                                     </ul>
                                 </div>
                             </div>
