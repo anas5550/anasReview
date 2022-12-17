@@ -1,22 +1,14 @@
 {
   "files": {
-    "main.css": "/anasReview/static/css/main.72510d8e.css",
-    "main.js": "/anasReview/static/js/main.a1c22091.js",
+    "main.css": "/anasReview/static/css/main.24799c6c.css",
+    "main.js": "/anasReview/static/js/main.4a4f7505.js",
     "static/js/787.28cb0dcd.chunk.js": "/anasReview/static/js/787.28cb0dcd.chunk.js",
-    "static/media/img3.jpg": "/anasReview/static/media/img3.70cba320743b8a805b39.jpg",
-    "static/media/img2.jpg": "/anasReview/static/media/img2.1a3e40889ec65581189c.jpg",
-    "static/media/img5.jpg": "/anasReview/static/media/img5.633e1358a81b74e7e6dd.jpg",
     "static/media/merry_christmas.gif": "/anasReview/static/media/merry_christmas.fd19fc872d048725b281.gif",
     "static/media/intro_bg.png": "/anasReview/static/media/intro_bg.3b62ce3f06f2087d5d8b.png",
-    "static/media/img4.jpg": "/anasReview/static/media/img4.b7dcaade1d49485cc023.jpg",
-    "static/media/img6.jpg": "/anasReview/static/media/img6.234976df148386f20b2c.jpg",
     "static/media/Resume.pdf": "/anasReview/static/media/Resume.9c50b7110b6daaafe563.pdf",
     "static/media/thankyou2.gif": "/anasReview/static/media/thankyou2.1ac9b4892ae0920a42bd.gif",
-    "static/media/img1.jpg": "/anasReview/static/media/img1.a9154450d7d482fd3e78.jpg",
     "static/media/archive2.png": "/anasReview/static/media/archive2.25decbaead9ea04150bb.png",
-    "static/media/img7.jpg": "/anasReview/static/media/img7.8fd4fe27a91a5be98426.jpg",
     "static/media/archive1.png": "/anasReview/static/media/archive1.ca7d4b4e3e6bc143db06.png",
-    "static/media/ABI_logo.png": "/anasReview/static/media/ABI_logo.5cec3fa02207b8293b3e.png",
     "static/media/problem_solving.png": "/anasReview/static/media/problem_solving.12d28c603e3fdc63e89c.png",
     "static/media/upskilling.png": "/anasReview/static/media/upskilling.0acde39a809ec29d75a8.png",
     "static/media/beer_img.png": "/anasReview/static/media/beer_img.a29d4bca89e841990f0b.png",
@@ -33,12 +25,12 @@
     "static/media/brand6.png": "/anasReview/static/media/brand6.cb007bc296240c29b885.png",
     "static/media/abi_updated_logo.png": "/anasReview/static/media/abi_updated_logo.37b45ad926ee280a586d.png",
     "index.html": "/anasReview/index.html",
-    "main.72510d8e.css.map": "/anasReview/static/css/main.72510d8e.css.map",
-    "main.a1c22091.js.map": "/anasReview/static/js/main.a1c22091.js.map",
+    "main.24799c6c.css.map": "/anasReview/static/css/main.24799c6c.css.map",
+    "main.4a4f7505.js.map": "/anasReview/static/js/main.4a4f7505.js.map",
     "787.28cb0dcd.chunk.js.map": "/anasReview/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72510d8e.css",
-    "static/js/main.a1c22091.js"
+    "static/css/main.24799c6c.css",
+    "static/js/main.4a4f7505.js"
   ]
 }
