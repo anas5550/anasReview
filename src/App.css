@@ -17,6 +17,7 @@
 body {
   scroll-behavior: smooth;
 }
+
 html, body {
   overflow-x: hidden;
 }
@@ -606,19 +607,6 @@ html, body {
   background: #ba980d;
 }
 
-/* my info */
-
-#my_info_box {
-  height: 100vh;
-  background: rgb(241, 196, 15);
-  background: linear-gradient(90deg, rgba(246, 200, 15, 0.6) 0%, rgba(0, 0, 0, 0.6) 0%), url('./assets/img5.jpg');
-  /* background-position: 0 0; */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-}
-
 /* intro */
 
 #intro_box {
@@ -840,4 +828,121 @@ html, body {
 #resume_download_icon {
   font-size: 2rem;
   color: #f1c40f;
+}
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+  #intro_navbar img {
+    display: block !important;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  #intro_my_name {
+    font-size: 2.5rem !important;
+  }
+
+  #digital_solution_intern {
+    font-size: 1.5rem !important;
+  }
+
+  #intro_card_box {
+    flex-direction: column;
+  }
+
+  #cheers {
+    font-size: 1.2rem;
+    margin-top: 50px;
+  }
+
+  #down_arrow {
+    margin-top: 50px;
+  }
+
+  /* end of navbar and introduction */
+
+  /* start of contribution */
+  #contribution .card {
+    margin-top: 20px;
+  }
+
+  /* end of contribution */
+  /* start of lot more */
+  #lot_more_box {
+    max-height: auto !important;
+    display: block;
+    margin-top: 50px;
+  }
+
+  #lot_more_left_side p:nth-child(1) {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  #lot_more_left_side p:nth-child(2) {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  /* end of lot more */
+  /* beer brands */
+  #beer_brand {
+    margin-top: -200px !important;
+  }
+
+  /* my learnings */
+
+  .my_heading, .my_heading span {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+
+  .myLearnings_inner {
+    flex-direction: column !important;
+  }
+
+  .myLearnings_inner .learning_card, .myLearnings_inner .learning_card2 {
+    display: block;
+    margin: 10px auto 0 auto;
+    min-width: 50vw;
+  }
+
+  /* end of learnings */
+
+  /* start of imporvement */
+  .improvement_card {
+    margin-top: 10px;
+  }
+
+  /* end of imporvement */
+
+  /* consider me  */
+
+  .row1-container img, .row2-container img {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    object-fit: contain;
+  }
+
+  /* footer */
+
+  #footer {
+    flex-direction: column;
+  }
+
+  #footer p, #footer span {
+    font-size: 1rem !important;
+  }
+
+  #footer span {
+    font-size: 1.2rem;
+  }
+
+
 }

@@ -27,7 +27,7 @@ const Introduction = () => {
                 </div>
                 <div className="row mt-5">
                     <p className='text-center' style={{ fontSize: "5rem" }} id="intro_my_name">Anas Siddiqui</p>
-                    <p className='text-center' style={{ fontSize: "3rem" }}>Digital Solution - PWA R&M Intern</p>
+                    <p className='text-center' style={{ fontSize: "3rem" }} id="digital_solution_intern">Digital Solution - PWA R&M Intern</p>
                 </div>
                 <div id="intro_works">
                     <div id="intro_card_box">
@@ -52,7 +52,7 @@ const Introduction = () => {
                                 autoStart: true,
                                 loop: true,
                                 delay: 200,
-                                strings: ["# future with more cheers."]
+                                strings: ["#to a future with more cheers."]
                             }}
                         />
                     </p>

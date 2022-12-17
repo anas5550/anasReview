@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './mediaQuery.css';
-import Header from './Header';
 import Brands from './Brands';
 import Projects from './Projects';
 import MyLearnings from './MyLearnings';
@@ -28,7 +27,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Header /> */}
       <Introduction />
       <Projects />
       <LotMore />
