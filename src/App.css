@@ -259,11 +259,12 @@ html, body {
 
 /* improvement */
 
-/* #improvement_box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
+#imporvement {
+  background: #fafafa !important;
+  padding: 20px;
+  border-radius: 5px;
+}
+
 .improvement_card {
   max-height: 150px !important;
   display: flex;
@@ -623,9 +624,17 @@ html, body {
   align-items: center;
 }
 
+/* #intro_navbar img {
+  object-fit: cover;
+  height: 100px;
+  width: 200px;
+  margin-top: 10px;
+} */
+
 #navbar {
   display: flex;
   align-items: center;
+
 }
 
 #my_name {
@@ -768,12 +777,15 @@ html, body {
   font-size: 1.5rem;
   text-align: center;
   animation: animate 2s ease-in-out infinite;
-
+  position: relative;
+  position: absolute !important;
+  top: 90vh;
+  left: 50vw;
 }
 
 #down_arrow #arrow_icon {
-
   color: #f1c40f !important;
+  text-align: center;
 }
 
 /* lot more */
@@ -860,9 +872,9 @@ html, body {
     margin-top: 50px;
   }
 
-  #down_arrow {
+  /* #down_arrow {
     margin-top: 50px;
-  }
+  } */
 
   /* end of navbar and introduction */
 
@@ -897,6 +909,7 @@ html, body {
 
   /* my learnings */
 
+
   .my_heading, .my_heading span {
     margin-top: 20px;
     font-size: 1.5rem;
@@ -922,6 +935,10 @@ html, body {
   /* end of imporvement */
 
   /* consider me  */
+  .considerMe_box {
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
 
   .row1-container img, .row2-container img {
     position: absolute;

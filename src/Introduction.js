@@ -6,14 +6,16 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { BsChevronDoubleDown } from 'react-icons/bs';
 import { BiDownload } from 'react-icons/bi';
 import Resume from './assets/Resume.pdf';
+import abi_gif from './assets/abi_gif.gif';
+import abi_logo from './assets/new_abi_logo.png';
 
-//pushing
 const Introduction = () => {
     return (
         <BrowserRouter>
             <div className='container-fluid' id="intro_box">
                 <div id="intro_navbar">
-                    <img src={Logo} alt="abi_logo" />
+                    <img src={abi_logo} alt="abi_logo" />
+                    {/* <img src={abi_gif} alt="abi_logo" /> */}
                     <div className="" id="navbar">
                         <Link className='nav_link' to="#contribution">Contribution</Link>
                         <Link className='nav_link' to="#learnings">Learnings</Link>
